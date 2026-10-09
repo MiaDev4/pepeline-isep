@@ -2,7 +2,7 @@ name: Mon premier pipeline
 
 on:
   push:
-  workflows_dispatch:
+  workflow_dispatch:
 jobs:
   bonjour:
     runs-on: ubuntu-latest
