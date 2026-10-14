@@ -21,5 +21,8 @@ jobs:
       - name: Récuperer le code
         uses: actions/checkout@v7
 
+      - name: Lire un fichier
+        run: cat fichier-inexistant.txt
+
       - name: Liser les fichiers après
         run: ls -la
